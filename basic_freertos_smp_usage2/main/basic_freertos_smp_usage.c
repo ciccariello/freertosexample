@@ -98,5 +98,5 @@ void app_main(void)
 //  comp_queue_entry_func( );
 //    comp_task_notification_entry_func( );
     comp_lock_entry_func( );
-    ESP_LOGI(TAG, "set value = %d", s_global_num);
+    ESP_LOGI(TAG, "set value for = %d", s_global_num);
 }
